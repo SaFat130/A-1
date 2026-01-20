@@ -121,3 +121,38 @@ nav{
     text-indent: 70px;
     color: #627382;
 }
+
+.card{
+    display: flex;
+    padding: 24px;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: #627382;
+    
+}
+.c1, .c2, .c3, .c4 {
+    background-color:white;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #627382;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.c1 p, .c2 p, .c3 p, .c4 p {
+    text-align: center;
+    margin: 0;
+}
+
+.c1 img, .c2 img, .c3 img, .c4 img{
+    background-color: #F95555;
+    border-radius: 50%;
+    object-fit: contain;
+    width: auto;
+    height: auto;
+}
