@@ -1,12 +1,7 @@
 
-.font-inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-}
-
-
 body{
     margin-top: 10px;
+  font-family: "Inter", sans-serif;
 }
 nav{
     
@@ -31,4 +26,47 @@ nav{
     border-color:rgb(110, 196, 110); ;
     color: #fff;
     width: 150px;
+}
+
+/*Banner start*/
+.banner{
+    background-image:url(assets/hero-bg.png);
+    height:770px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.but2{
+    display: flex;
+    border-radius: 25px;
+    height: 30px;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+}
+.but2 img{
+    margin-right: 5px;
+}
+#wr{
+    color: green;
+    font-size:small;
+}
+#heading{
+    font-size: 4em;
+    color: white;
+    text-indent: 20px;
+
+}
+#heading2{
+    color: green;
+}
+#para{
+    color: white;
+    align-items: center;
+    text-indent: 20px;
 }
