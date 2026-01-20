@@ -104,3 +104,20 @@ nav{
     height: 50px;
     width: 200px;
 }
+
+/*note segment starting*/
+
+.note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Head{
+    margin-top: 60px;
+    font-size: 3em;
+}
+#p2{
+    font-size: smaller;
+    text-indent: 70px;
+    color: #627382;
+}
