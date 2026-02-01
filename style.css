@@ -159,3 +159,35 @@ nav{
     width: auto;
     height: auto;
 }
+
+
+/*brain section start*/
+
+.brain{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin-top: 100px;
+}
+#p{
+    color: #469165;
+    font-size: smaller;
+}
+#h{
+    color: #627382;
+    font-size: smaller;
+}
+#hh{
+    font-size: xx-large;
+}
+.image{
+    margin-left: 220px;
+}
+.writing{
+    margin-left: 70px;
+}
+.p1, .p2, .p3, .p4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
