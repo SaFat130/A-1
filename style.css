@@ -218,3 +218,32 @@ nav{
     font-size: xx-large;
     font-weight:800;
 }
+.ready p{
+    padding-bottom: 80px;
+}
+/*final footer start*/
+.foot2{
+        margin-top: 100px;
+    background-color:#001931 ;
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin-left: 200px;
+}
+.last2{
+    padding-top: 60px;
+    padding-bottom: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.last2 h1{
+    color: #fff;
+}
+.last2 img {
+    margin-right: 10px;
+}
