@@ -84,7 +84,7 @@ nav{
     align-items: center;
     gap: 10px;
     height: 50px;
-    width: 200px;
+    width: auto;
      background-color: #469165;
      border-color:rgb(110, 196, 110); ;
      color: #fff;
@@ -167,7 +167,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content:start;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 #p{
     color: #469165;
@@ -190,4 +190,31 @@ nav{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+/*foot-1 start*/
+
+.foot1{
+    margin-top: 80px;
+    background-color:#F7F6F2 ;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+.ready{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+#wr1{
+    text-align: center;
+}
+.ready p{
+    color: #627382;
+    margin-top: 30px;
+    font-size:medium;
+}
+.ready h2{
+    font-size: xx-large;
+    font-weight:800;
 }
