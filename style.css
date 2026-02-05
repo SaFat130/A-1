@@ -27,6 +27,10 @@ nav{
     color: #fff;
     width: 150px;
 }
+.but:hover {
+    cursor: pointer;
+    background-color: #357a4f;
+}
 
 /*Banner start*/
 .banner{
@@ -49,6 +53,10 @@ nav{
     width: 200px;
     justify-content: center;
     margin-bottom: 20px;
+}
+.but2:hover {
+    cursor: pointer;
+    background-color: #f0c3c3;
 }
 .but2 img{
     margin-right: 5px;
@@ -90,6 +98,10 @@ nav{
      color: #fff;
      border-radius: 4px;
 }
+.but3:hover {
+    cursor: pointer;
+    background-color: #357a4f;
+}
 
 .but4{
     margin-top: 20px;
@@ -103,6 +115,10 @@ nav{
     border-radius: 4px;
     height: 50px;
     width: 200px;
+}
+.but4:hover {
+    cursor: pointer;
+    background-color:#be9b0e;
 }
 
 /*note segment starting*/
@@ -144,6 +160,11 @@ nav{
     flex-direction: column;
     margin-right: 80px;
     text-align: center;
+}
+
+.c1:hover, .c2:hover, .c3:hover, .c4:hover {
+    cursor: pointer;
+    border:1px solid #357a4f;
 }
 .c1 p, .c2 p, .c3 p, .c4 p {
     text-align: center;
